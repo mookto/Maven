@@ -22,7 +22,7 @@ pipeline {
 	{
 	
 	always 
-	{emailext body: 'Hello this is from jenkins .', subject: 'TestPipeline-jenkins ', to: '45hasanmahedi@gmail.com'}
+	{emailext body: 'Hello this is from jenkins .', subject: 'TestPipeline-jenkins ', to: 'sabuj@commlinkinfotech.com'}
 	
 	}
 }
